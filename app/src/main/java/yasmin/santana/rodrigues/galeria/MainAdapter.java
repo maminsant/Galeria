@@ -31,7 +31,6 @@ public class MainAdapter extends RecyclerView.Adapter{
     public int getItemCount() { //quantos elementos a lista possui;
         return photos.size();
     }
-}
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position){
